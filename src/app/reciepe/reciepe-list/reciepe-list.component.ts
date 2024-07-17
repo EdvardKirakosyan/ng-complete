@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { ReciepeItemComponent } from './reciepe-item/reciepe-item.component';
 
 @Component({
   selector: 'app-reciepe-list',
   standalone: true,
-  imports: [],
+  imports: [ReciepeItemComponent],
   templateUrl: './reciepe-list.component.html',
-  styleUrl: './reciepe-list.component.scss'
+  styleUrl: './reciepe-list.component.scss',
 })
-export class ReciepeListComponent {
-
-}
+export class ReciepeListComponent {}
